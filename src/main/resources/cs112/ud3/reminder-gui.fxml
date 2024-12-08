@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="cs112.ud3.ReminderController"
+            prefHeight="300.0" prefWidth="600.0">
+    <VBox alignment="CENTER" spacing="10.0">
+        <padding>
+            <Insets bottom="30" top="20" left="50" right="50" />
+        </padding>
+        <HBox alignment="CENTER" spacing="30.0">
+            <VBox>
+                <Label>Title:</Label>
+                <TextField fx:id="titleInput" />
+            </VBox>
+            <VBox>
+                <Label>Date:</Label>
+                <TextField fx:id="dateInput" />
+            </VBox>
+        </HBox>
+        <VBox maxWidth="500.0">
+            <Label>Description:</Label>
+            <TextArea fx:id="description" />
+        </VBox>
+        <Label fx:id="error" />
+        <Button text="Create Reminder" fx:id="create" />
+    </VBox>
+</AnchorPane>

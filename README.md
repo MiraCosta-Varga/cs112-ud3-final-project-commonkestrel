@@ -1,17 +1,42 @@
-# Unit Deliverable 3 - Final Project
+# To-Do List Manager
 
-Feel free to edit this file to contain a description of your project, as well as your UML diagram and GUI wireframe images. You can simply add them to your project directory and use a relative path, or upload them to [imgur](https://imgur.com/upload).
+The **To-Do List Manager** is a graphical Java application designed to help users efficiently manage their tasks.
+With features like task prioritization, and an intuitive user interface, this project is inspired by the need for better time management tools in daily life. This project draws inspiration from popular productivity apps like Todoist and Microsoft To-Do while being tailored for simplicity and ease of use. It was initially designed to fulfill academic requirements and evolved into a proof-of-concept application showcasing object-oriented programming principles.
 
-Use [Markdown](https://gist.github.com/cuonggt/9b7d08a597b167299f0d) to format appropriately. 
+## Features
 
-## Demo
+- Add reminders and tasks dynamically.
+- Track task priority and due dates.
+- Minimalist and user-friendly GUI layout.
 
-Place the animated image of your project demo here!
+## Inspiration
 
-## UML Diagram
+This project was inspired by:
+- The article [*"How to-do lists help boost productivity"*](https://www.notion.com/blog/to-dos) on productivity habits.
+- Personal experiences with the challenges of juggling academic and extracurricular responsibilities.
+- The structure of popular productivity tools such as Todoist and Trello.
 
-Place your UML diagram image here! Make sure they're updated to be accurate to your final project!
+## GIF Demonstration
 
-## Wireframe
+Here’s a GIF of the working project:
+![demonstration gif](./ud3-todo.gif)
 
-Place your wireframe image(s) here! Make sure they're updated to be accurate to your final project!
+## UML Diagram (UD1)
+
+The following UML diagram outlines the structure and relationships of the core classes used in this project:
+![uml diagram](./ud1-uml.png)
+
+## GUI Wireframe Diagram (UD2)
+
+Below is the wireframe diagram created during the planning phase of the graphical user interface:
+![planning wireframe](./ud2-wireframe.png)
+
+---
+
+## How to Use
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/MiraCosta-Varga/cs112-ud3-final-project-commonkestrel.git
+   ```
+2. Open the project in IntelliJ IDEA as a Maven project
+3. Run the `Main.java` file
